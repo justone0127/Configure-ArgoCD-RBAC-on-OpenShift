@@ -31,7 +31,7 @@
 
   - `openshift-gitops`  프로젝트 > Workloads > ConfigMap > argocd-rbac-cm > data 확인
 
-    ![01_rbac_policy](C:\Works\01_자료\01_OCP\05_OCP_Demo_hyou\brown_bag_gitops\gitops-rbac\01_rbac_policy.png)
+    ![01_rbac_policy](https://github.com/justone0127/Configure-ArgoCD-RBAC-on-OpenShift/blob/main/images/01_rbac_policy.png)
 
 - admin 권한으로 변경 (CLI로 명령어로 적용)
 
@@ -45,15 +45,15 @@
 
   - role:readonly -> role:admin
 
-    ![02_rbac_cm_update](C:\Works\01_자료\01_OCP\05_OCP_Demo_hyou\brown_bag_gitops\gitops-rbac\02_rbac_cm_update.png)
+    ![02_rbac_cm_update](https://github.com/justone0127/Configure-ArgoCD-RBAC-on-OpenShift/blob/main/images/02_rbac_cm_update.png)
 
   - 적용 확인
 
-    ![03_rbac_policy_confirm](C:\Works\01_자료\01_OCP\05_OCP_Demo_hyou\brown_bag_gitops\gitops-rbac\03_rbac_policy_confirm.png)
+    ![03_rbac_policy_confirm](https://github.com/justone0127/Configure-ArgoCD-RBAC-on-OpenShift/blob/main/images/03_rbac_policy_confirm.png)
 
     > policy가 admin으로 수정된 이후에는 openshift 계정으로 로그인하여 ArgoCD 인스턴스에서 리소스를 생성 할 수 있습니다.
 
   - LOG IN VIA OPENSHFIT
 
-    ![04_argocd_login_openshift](C:\Works\01_자료\01_OCP\05_OCP_Demo_hyou\brown_bag_gitops\gitops-rbac\04_argocd_login_openshift.png)
+    ![04_argocd_login_openshift](https://github.com/justone0127/Configure-ArgoCD-RBAC-on-OpenShift/blob/main/images/04_argocd_login_openshift.png)
 
